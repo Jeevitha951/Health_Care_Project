@@ -1,0 +1,206 @@
+/* app.css */
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif; /* Set default font family */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+/* Header styles */
+header {
+  background-color: #333; /* Dark background color */
+  color: #fff; /* White text color */
+  padding: 20px 0; /* Vertical padding */
+  text-align: center; /* Center-align content */
+}
+
+header h1 {
+  font-size: 24px; /* Large font size for heading */
+}
+
+/* Navigation styles */
+nav ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0; /* Remove default padding */
+}
+
+nav ul li {
+  display: inline; /* Display list items inline */
+  margin: 0 10px; /* Add spacing between list items */
+}
+
+nav ul li a {
+  color: #fff; /* White text color */
+  text-decoration: none; /* Remove underline from links */
+}
+
+/* Hero section styles */
+#hero {
+  background-image: url('https://via.placeholder.com/1500x500'); /* Set background image */
+  background-size: cover; /* Cover the entire container */
+  background-position: center; /* Center the background image */
+  color: #fff; /* White text color */
+  text-align: center; /* Center-align content */
+  padding: 100px 0; /* Vertical padding */
+}
+
+.hero-container {
+  max-width: 800px; /* Limit width of content container */
+  margin: 0 auto; /* Center content horizontally */
+}
+
+.hero-container h1 {
+  font-size: 48px; /* Large font size for heading */
+  margin-bottom: 20px; /* Add spacing below the heading */
+}
+
+.hero-container p {
+  font-size: 24px; /* Font size for subheading */
+  margin-bottom: 30px; /* Add spacing below the subheading */
+}
+
+.btn {
+  padding: 10px 20px; /* Add padding to the button */
+  background-color: #007bff; /* Blue color for button */
+  color: #fff; /* White text color */
+  text-decoration: none; /* Remove underline from button */
+  border-radius: 5px; /* Add rounded corners to button */
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.btn:hover {
+  background-color: #0056b3; /* Darker blue color on hover */
+}
+
+/* Services section styles */
+#services {
+  background-color: #f9f9f9; /* Light grey background */
+  padding: 50px 0; /* Vertical padding */
+  text-align: center; /* Center-align content */
+}
+
+.services-container {
+  max-width: 800px; /* Limit width of content container */
+  margin: 0 auto; /* Center content horizontally */
+}
+
+.services-container h2 {
+  font-size: 32px; /* Large font size for section title */
+  margin-bottom: 20px; /* Add spacing below the title */
+}
+
+.services-container p {
+  font-size: 18px; /* Font size for paragraph text */
+  color: #666666; /* Dark grey color for text */
+}
+
+.services-container ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0; /* Remove default padding */
+}
+
+.services-container ul li {
+  margin-bottom: 10px; /* Add spacing between list items */
+  font-size: 18px; /* Font size for list items */
+}
+
+/* Appointments section styles */
+#appointments {
+  background-color: #f9f9f9; /* Light grey background */
+  padding: 50px 0; /* Vertical padding */
+  text-align: center; /* Center-align content */
+}
+
+.appointments-container {
+  max-width: 800px; /* Limit width of content container */
+  margin: 0 auto; /* Center content horizontally */
+}
+
+.appointments-container h2 {
+  font-size: 32px; /* Large font size for section title */
+  margin-bottom: 20px; /* Add spacing below the title */
+}
+
+.appointments-container p {
+  font-size: 18px; /* Font size for paragraph text */
+  color: #666666; /* Dark grey color for text */
+}
+
+/* Resources section styles */
+#resources {
+  background-color: #f9f9f9; /* Light grey background */
+  padding: 50px 0; /* Vertical padding */
+  text-align: center; /* Center-align content */
+}
+
+.resources-container {
+  max-width: 800px; /* Limit width of content container */
+  margin: 0 auto; /* Center content horizontally */
+}
+
+.resources-container h2 {
+  font-size: 32px; /* Large font size for section title */
+  margin-bottom: 20px; /* Add spacing below the title */
+}
+
+.resources-container p {
+  font-size: 18px; /* Font size for paragraph text */
+  color: #666666; /* Dark grey color for text */
+}
+
+.resources-container ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0; /* Remove default padding */
+}
+
+.resources-container ul li {
+  margin-bottom: 10px; /* Add spacing between list items */
+  font-size: 18px; /* Font size for list items */
+}
+
+.resources-container ul li a {
+  color: #007bff; /* Blue color for links */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.resources-container ul li a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+/* Testimonials section styles */
+#testimonials {
+  background-color: #f9f9f9; /* Light grey background */
+  padding: 50px 0; /* Vertical padding */
+  text-align: center; /* Center-align content */
+}
+
+.testimonials-container {
+  max-width: 800px; /* Limit width of content container */
+  margin: 0 auto; /* Center content horizontally */
+}
+
+.testimonials-container h2 {
+  font-size: 32px; /* Large font size for section title */
+  margin-bottom: 20px; /* Add spacing below the title */
+}
+
+.testimonial {
+  margin-bottom: 30px; /* Add spacing between testimonials */
+}
+
+.testimonial img {
+  border-radius: 50%; /* Make the image round */
+  margin-bottom: 10px; /* Add spacing below the image */
+}
+
+.testimonial p {
+  font-size: 18px; /* Font size for testimonial text */
+  color: #666666; /* Dark grey color for text */
+  margin-bottom: 10px; /* Add spacing below the text */
+}
+
+.testimonial span {
+  font-style: italic; /* Italicize the name */
+  color: #333333; /* Dark color for name */
+}

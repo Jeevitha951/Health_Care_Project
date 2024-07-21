@@ -1,0 +1,37 @@
+/* styles.css */
+#testimonials {
+    background-color: #fbecec; /* Light grey background */
+    padding: 50px 0; /* Vertical padding */
+    text-align: center; /* Center-align content */
+  }
+  
+  .testimonials-container {
+    max-width: 800px; /* Limit width of content container */
+    margin: 0 auto; /* Center content horizontally */
+  }
+  
+  .testimonials-container h2 {
+    font-size: 32px; /* Large font size for section title */
+    margin-bottom: 20px; /* Add spacing below the title */
+  }
+  
+  .testimonial {
+    margin-bottom: 30px; /* Add spacing between testimonials */
+  }
+  
+  .testimonial img {
+    border-radius: 50%; /* Make the image round */
+    margin-bottom: 10px; /* Add spacing below the image */
+  }
+  
+  .testimonial p {
+    font-size: 18px; /* Font size for testimonial text */
+    color: #666666; /* Dark grey color for text */
+    margin-bottom: 10px; /* Add spacing below the text */
+  }
+  
+  .testimonial span {
+    font-style: italic; /* Italicize the name */
+    color: #333333; /* Dark color for name */
+  }
+  

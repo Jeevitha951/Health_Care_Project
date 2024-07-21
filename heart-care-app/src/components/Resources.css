@@ -1,0 +1,41 @@
+/* styles.css */
+#resources {
+    background-color: #f9f9f9; /* Light grey background */
+    padding: 50px 0; /* Vertical padding */
+    text-align: center; /* Center-align content */
+  }
+  
+  .resources-container {
+    max-width: 800px; /* Limit width of content container */
+    margin: 0 auto; /* Center content horizontally */
+  }
+  
+  .resources-container h2 {
+    font-size: 32px; /* Large font size for section title */
+    margin-bottom: 20px; /* Add spacing below the title */
+  }
+  
+  .resources-container p {
+    font-size: 18px; /* Font size for paragraph text */
+    color: #666666; /* Dark grey color for text */
+  }
+  
+  .resources-container ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .resources-container ul li {
+    margin-bottom: 10px; /* Add spacing between list items */
+  }
+  
+  .resources-container ul li a {
+    font-size: 18px; /* Font size for links */
+    color: #007bff; /* Blue color for links */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  .resources-container ul li a:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
+  

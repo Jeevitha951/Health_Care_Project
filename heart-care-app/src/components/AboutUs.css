@@ -1,0 +1,22 @@
+
+#about {
+    background-color:#fbecec; /* Light grey background */
+    padding: 50px 0; /* Vertical padding */
+    text-align: center; /* Center-align content */
+  }
+  
+  .about-container {
+    max-width: 800px; /* Limit width of content container */
+    margin: 0 auto; /* Center content horizontally */
+  }
+  
+  .about-container h2 {
+    font-size: 32px; /* Large font size for section title */
+    margin-bottom: 20px; /* Add spacing below the title */
+  }
+  
+  .about-container p {
+    font-size: 18px; /* Font size for paragraph text */
+    color: #666666; /* Dark grey color for text */
+  }
+  

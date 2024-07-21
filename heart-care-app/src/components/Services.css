@@ -1,0 +1,32 @@
+/* styles.css */
+#services {
+    background-color: #f9f9f9; /* Light grey background */
+    padding: 50px 0; /* Vertical padding */
+    text-align: center; /* Center-align content */
+  }
+  
+  .services-container {
+    max-width: 800px; /* Limit width of content container */
+    margin: 0 auto; /* Center content horizontally */
+  }
+  
+  .services-container h2 {
+    font-size: 32px; /* Large font size for section title */
+    margin-bottom: 20px; /* Add spacing below the title */
+  }
+  
+  .services-container p {
+    font-size: 26px; /* Font size for paragraph text */
+    color: #0d0c0c; /* Dark grey color for text */
+  }
+  
+  .services-container ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .services-container ul li {
+    margin-bottom: 10px; /* Add spacing between list items */
+    font-size: 18px; /* Font size for list items */
+  }
+  

@@ -1,0 +1,38 @@
+/* styles.css */
+#hero {
+    background-image: url(https://via.placeholder.com/); /* Set background image */
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the background image */
+    color: #f19292; /* White text color */
+    text-align: center; /* Center-align content */
+    padding: 100px 0; /* Vertical padding */
+  }
+  
+  .hero-container {
+    max-width: 800px; /* Limit width of content container */
+    margin: 0 auto; /* Center content horizontally */
+  }
+  
+  .hero-container h1 {
+    font-size: 48px; /* Large font size for heading */
+    margin-bottom: 20px; /* Add spacing below the heading */
+  }
+  
+  .hero-container p {
+    font-size: 24px; /* Font size for subheading */
+    margin-bottom: 30px; /* Add spacing below the subheading */
+  }
+  
+  .btn {
+    padding: 10px 20px; /* Add padding to the button */
+    background-color: #007bff; /* Blue color for button */
+    color: #fff; /* White text color */
+    text-decoration: none; /* Remove underline from button */
+    border-radius: 5px; /* Add rounded corners to button */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+  }
+  
+  .btn:hover {
+    background-color: #0056b3; /* Darker blue color on hover */
+  }
+  

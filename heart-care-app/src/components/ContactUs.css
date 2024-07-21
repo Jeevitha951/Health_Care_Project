@@ -1,0 +1,39 @@
+/* styles.css */
+#contact {
+    background-color: #f9f9f9; /* Light grey background */
+    padding: 50px 0; /* Vertical padding */
+    text-align: center; /* Center-align content */
+  }
+  
+  .contact-container {
+    max-width: 800px; /* Limit width of content container */
+    margin: 0 auto; /* Center content horizontally */
+  }
+  
+  .contact-container h2 {
+    font-size: 32px; /* Large font size for section title */
+    margin-bottom: 20px; /* Add spacing below the title */
+  }
+  
+  .contact-container p {
+    font-size: 18px; /* Font size for paragraph text */
+    color: #666666; /* Dark grey color for text */
+  }
+  
+  .social-links {
+    margin-top: 20px;
+  }
+  
+  .social-links a {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 24px;
+    color: #333333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .social-links a:hover {
+    color: #007bff; /* Change color on hover to blue */
+  }
+  
